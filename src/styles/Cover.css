@@ -1,0 +1,176 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.main-header {
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.group-members {
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.cover {
+  width: 100%;
+}
+
+.synopsis {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.syn-header {
+  font-size: 40px;
+}
+.syn-text {
+  font-size: 20px;
+}
+
+.characters {
+  display: grid;
+  grid-template-columns: repeat(3, 25vw);
+  justify-content: center;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.characters-title {
+  text-align: center;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 5vw;
+}
+
+.name {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 2vw;
+}
+
+.bio {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.5vw;
+}
+
+.img {
+  width: 25vw;
+  border-radius: 3px 3px 0 0;
+  max-height: 15vw;
+}
+
+.card {
+  background-color: white;
+
+  width: 25vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  padding: 8px 12px;
+}
+
+.background.active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.card.expanded {
+  position: relative;
+  z-index: 2;
+  width: 50vw;
+}
+
+.start-btn {
+  border: 1px solid rgb(55, 152, 197);
+  color: rgb(55, 152, 197);
+  padding: 1vw 1.2vw;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: block;
+  background-color: transparent;
+  transition: all 0.5s;
+  margin-bottom: 10px;
+  font-size: 1vw;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.chapter-btn {
+  visibility: hidden;
+  border: 1px solid rgb(55, 152, 197);
+  color: rgb(55, 152, 197);
+  padding: 1vw 1.2vw;
+  border-radius: 15px;
+  background-color: transparent;
+  transition: all 0.5s;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 45px;
+  font-size: 1vw;
+  text-decoration: none;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.start-btn:hover {
+  color: white;
+  background-color: rgb(55, 152, 197);
+}
+.chapter-btn:hover {
+  color: white;
+  background-color: rgb(55, 152, 197);
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.chapter-btn.active {
+  visibility: visible;
+  transform: translateY(-45px);
+}
+
+@media screen and (min-width: 2000px) {
+  .card.expanded {
+    width: 25vw;
+  }
+  .card {
+    width: 12.5vw;
+  }
+  .img {
+    width: 12.5vw;
+  }
+  .name {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 1vw;
+  }
+
+  .bio {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 0.75vw;
+  }
+  .characters {
+    grid-template-columns: repeat(5, 12.5vw);
+    grid-row-gap: 40px;
+    grid-column-gap: 40px;
+  }
+  .characters-title {
+    font-size: 3vw;
+  }
+}
