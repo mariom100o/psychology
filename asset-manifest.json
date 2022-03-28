@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/psychology/static/css/main.bd6a0eb0.css",
+    "main.js": "/psychology/static/js/main.5d18f890.js",
+    "static/media/cover.jpg": "/psychology/static/media/cover.400b7025c2dcfb7efabb.jpg",
+    "static/media/tiana.png": "/psychology/static/media/tiana.08ab441e99da9c2d7e61.png",
+    "static/media/chap10.png": "/psychology/static/media/chap10.96f2a540edaad7d9c068.png",
+    "static/media/chap7.jpg": "/psychology/static/media/chap7.664f43dab755e816ee93.jpg",
+    "static/media/chap6.jpg": "/psychology/static/media/chap6.a8fc83163246c90ef9ad.jpg",
+    "static/media/chap5.jpg": "/psychology/static/media/chap5.9312ef1d913ccc2e31fd.jpg",
+    "static/media/chap2.jpg": "/psychology/static/media/chap2.2b8334972c6c5fe1eabc.jpg",
+    "static/media/chap3.jpg": "/psychology/static/media/chap3.29d232fa5d413b0873cc.jpg",
+    "static/media/chap9.jpg": "/psychology/static/media/chap9.29d232fa5d413b0873cc.jpg",
+    "static/media/chap11.jpg": "/psychology/static/media/chap11.d45668ada30aafc84729.jpg",
+    "static/media/chap1.jpg": "/psychology/static/media/chap1.46adee97d0d51e14f8dd.jpg",
+    "static/media/facilier.jpg": "/psychology/static/media/facilier.32c84b987b843023b7a0.jpg",
+    "static/media/chap8.jpg": "/psychology/static/media/chap8.fc718c761f13f55432d4.jpg",
+    "static/media/chap4.jpg": "/psychology/static/media/chap4.06cafe851f9009a14f6f.jpg",
+    "static/media/naveen.jpg": "/psychology/static/media/naveen.81865baff13bd407c93a.jpg",
+    "index.html": "/psychology/index.html",
+    "main.bd6a0eb0.css.map": "/psychology/static/css/main.bd6a0eb0.css.map",
+    "main.5d18f890.js.map": "/psychology/static/js/main.5d18f890.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd6a0eb0.css",
+    "static/js/main.5d18f890.js"
+  ]
+}
